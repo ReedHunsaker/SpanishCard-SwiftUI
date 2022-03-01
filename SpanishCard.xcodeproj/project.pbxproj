@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B606C8827CDDB5D00F25013 /* SpanishCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B606C8727CDDB5D00F25013 /* SpanishCardApp.swift */; };
+		8B606C8A27CDDB5D00F25013 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B606C8927CDDB5D00F25013 /* ContentView.swift */; };
+		8B606C8C27CDDB5F00F25013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B606C8B27CDDB5F00F25013 /* Assets.xcassets */; };
+		8B606C8F27CDDB5F00F25013 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B606C8E27CDDB5F00F25013 /* Preview Assets.xcassets */; };
+		8B606C9927CDDB5F00F25013 /* SpanishCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B606C9827CDDB5F00F25013 /* SpanishCardTests.swift */; };
+		8B606CA327CDDB5F00F25013 /* SpanishCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B606CA227CDDB5F00F25013 /* SpanishCardUITests.swift */; };
+		8B606CA527CDDB5F00F25013 /* SpanishCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B606CA427CDDB5F00F25013 /* SpanishCardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B606C9527CDDB5F00F25013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B606C7C27CDDB5D00F25013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B606C8327CDDB5D00F25013;
+			remoteInfo = SpanishCard;
+		};
+		8B606C9F27CDDB5F00F25013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B606C7C27CDDB5D00F25013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B606C8327CDDB5D00F25013;
+			remoteInfo = SpanishCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B606C8427CDDB5D00F25013 /* SpanishCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpanishCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B606C8727CDDB5D00F25013 /* SpanishCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpanishCardApp.swift; sourceTree = "<group>"; };
+		8B606C8927CDDB5D00F25013 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B606C8B27CDDB5F00F25013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B606C8E27CDDB5F00F25013 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B606C9427CDDB5F00F25013 /* SpanishCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpanishCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B606C9827CDDB5F00F25013 /* SpanishCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpanishCardTests.swift; sourceTree = "<group>"; };
+		8B606C9E27CDDB5F00F25013 /* SpanishCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpanishCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B606CA227CDDB5F00F25013 /* SpanishCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpanishCardUITests.swift; sourceTree = "<group>"; };
+		8B606CA427CDDB5F00F25013 /* SpanishCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpanishCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B606C8127CDDB5D00F25013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B606C9127CDDB5F00F25013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B606C9B27CDDB5F00F25013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B606C7B27CDDB5D00F25013 = {
+			isa = PBXGroup;
+			children = (
+				8B606C8627CDDB5D00F25013 /* SpanishCard */,
+				8B606C9727CDDB5F00F25013 /* SpanishCardTests */,
+				8B606CA127CDDB5F00F25013 /* SpanishCardUITests */,
+				8B606C8527CDDB5D00F25013 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B606C8527CDDB5D00F25013 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B606C8427CDDB5D00F25013 /* SpanishCard.app */,
+				8B606C9427CDDB5F00F25013 /* SpanishCardTests.xctest */,
+				8B606C9E27CDDB5F00F25013 /* SpanishCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B606C8627CDDB5D00F25013 /* SpanishCard */ = {
+			isa = PBXGroup;
+			children = (
+				8B606C8727CDDB5D00F25013 /* SpanishCardApp.swift */,
+				8B606C8927CDDB5D00F25013 /* ContentView.swift */,
+				8B606C8B27CDDB5F00F25013 /* Assets.xcassets */,
+				8B606C8D27CDDB5F00F25013 /* Preview Content */,
+			);
+			path = SpanishCard;
+			sourceTree = "<group>";
+		};
+		8B606C8D27CDDB5F00F25013 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B606C8E27CDDB5F00F25013 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B606C9727CDDB5F00F25013 /* SpanishCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B606C9827CDDB5F00F25013 /* SpanishCardTests.swift */,
+			);
+			path = SpanishCardTests;
+			sourceTree = "<group>";
+		};
+		8B606CA127CDDB5F00F25013 /* SpanishCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B606CA227CDDB5F00F25013 /* SpanishCardUITests.swift */,
+				8B606CA427CDDB5F00F25013 /* SpanishCardUITestsLaunchTests.swift */,
+			);
+			path = SpanishCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B606C8327CDDB5D00F25013 /* SpanishCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B606CA827CDDB5F00F25013 /* Build configuration list for PBXNativeTarget "SpanishCard" */;
+			buildPhases = (
+				8B606C8027CDDB5D00F25013 /* Sources */,
+				8B606C8127CDDB5D00F25013 /* Frameworks */,
+				8B606C8227CDDB5D00F25013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpanishCard;
+			productName = SpanishCard;
+			productReference = 8B606C8427CDDB5D00F25013 /* SpanishCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B606C9327CDDB5F00F25013 /* SpanishCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B606CAB27CDDB5F00F25013 /* Build configuration list for PBXNativeTarget "SpanishCardTests" */;
+			buildPhases = (
+				8B606C9027CDDB5F00F25013 /* Sources */,
+				8B606C9127CDDB5F00F25013 /* Frameworks */,
+				8B606C9227CDDB5F00F25013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B606C9627CDDB5F00F25013 /* PBXTargetDependency */,
+			);
+			name = SpanishCardTests;
+			productName = SpanishCardTests;
+			productReference = 8B606C9427CDDB5F00F25013 /* SpanishCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B606C9D27CDDB5F00F25013 /* SpanishCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B606CAE27CDDB5F00F25013 /* Build configuration list for PBXNativeTarget "SpanishCardUITests" */;
+			buildPhases = (
+				8B606C9A27CDDB5F00F25013 /* Sources */,
+				8B606C9B27CDDB5F00F25013 /* Frameworks */,
+				8B606C9C27CDDB5F00F25013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B606CA027CDDB5F00F25013 /* PBXTargetDependency */,
+			);
+			name = SpanishCardUITests;
+			productName = SpanishCardUITests;
+			productReference = 8B606C9E27CDDB5F00F25013 /* SpanishCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B606C7C27CDDB5D00F25013 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8B606C8327CDDB5D00F25013 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8B606C9327CDDB5F00F25013 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8B606C8327CDDB5D00F25013;
+					};
+					8B606C9D27CDDB5F00F25013 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8B606C8327CDDB5D00F25013;
+					};
+				};
+			};
+			buildConfigurationList = 8B606C7F27CDDB5D00F25013 /* Build configuration list for PBXProject "SpanishCard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B606C7B27CDDB5D00F25013;
+			productRefGroup = 8B606C8527CDDB5D00F25013 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B606C8327CDDB5D00F25013 /* SpanishCard */,
+				8B606C9327CDDB5F00F25013 /* SpanishCardTests */,
+				8B606C9D27CDDB5F00F25013 /* SpanishCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B606C8227CDDB5D00F25013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B606C8F27CDDB5F00F25013 /* Preview Assets.xcassets in Resources */,
+				8B606C8C27CDDB5F00F25013 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B606C9227CDDB5F00F25013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B606C9C27CDDB5F00F25013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B606C8027CDDB5D00F25013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B606C8A27CDDB5D00F25013 /* ContentView.swift in Sources */,
+				8B606C8827CDDB5D00F25013 /* SpanishCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B606C9027CDDB5F00F25013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B606C9927CDDB5F00F25013 /* SpanishCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B606C9A27CDDB5F00F25013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B606CA327CDDB5F00F25013 /* SpanishCardUITests.swift in Sources */,
+				8B606CA527CDDB5F00F25013 /* SpanishCardUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B606C9627CDDB5F00F25013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B606C8327CDDB5D00F25013 /* SpanishCard */;
+			targetProxy = 8B606C9527CDDB5F00F25013 /* PBXContainerItemProxy */;
+		};
+		8B606CA027CDDB5F00F25013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B606C8327CDDB5D00F25013 /* SpanishCard */;
+			targetProxy = 8B606C9F27CDDB5F00F25013 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B606CA627CDDB5F00F25013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B606CA727CDDB5F00F25013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B606CA927CDDB5F00F25013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpanishCard/Preview Content\"";
+				DEVELOPMENT_TEAM = JJ2W5PNDQX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = game.hunsaker.tech.SpanishCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B606CAA27CDDB5F00F25013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpanishCard/Preview Content\"";
+				DEVELOPMENT_TEAM = JJ2W5PNDQX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = game.hunsaker.tech.SpanishCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B606CAC27CDDB5F00F25013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JJ2W5PNDQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = game.hunsaker.tech.SpanishCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpanishCard.app/SpanishCard";
+			};
+			name = Debug;
+		};
+		8B606CAD27CDDB5F00F25013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JJ2W5PNDQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = game.hunsaker.tech.SpanishCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpanishCard.app/SpanishCard";
+			};
+			name = Release;
+		};
+		8B606CAF27CDDB5F00F25013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JJ2W5PNDQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = game.hunsaker.tech.SpanishCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpanishCard;
+			};
+			name = Debug;
+		};
+		8B606CB027CDDB5F00F25013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JJ2W5PNDQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = game.hunsaker.tech.SpanishCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpanishCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B606C7F27CDDB5D00F25013 /* Build configuration list for PBXProject "SpanishCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B606CA627CDDB5F00F25013 /* Debug */,
+				8B606CA727CDDB5F00F25013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B606CA827CDDB5F00F25013 /* Build configuration list for PBXNativeTarget "SpanishCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B606CA927CDDB5F00F25013 /* Debug */,
+				8B606CAA27CDDB5F00F25013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B606CAB27CDDB5F00F25013 /* Build configuration list for PBXNativeTarget "SpanishCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B606CAC27CDDB5F00F25013 /* Debug */,
+				8B606CAD27CDDB5F00F25013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B606CAE27CDDB5F00F25013 /* Build configuration list for PBXNativeTarget "SpanishCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B606CAF27CDDB5F00F25013 /* Debug */,
+				8B606CB027CDDB5F00F25013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B606C7C27CDDB5D00F25013 /* Project object */;
+}
