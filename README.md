@@ -7,6 +7,6 @@ A quick Spanish flash card app using SwiftUI and Apple's text-to-speech api
 
 ## Screenshots
 
-![esEx](/readmesrc/exEn.png)
-![enEx](/readmesrc/exEs.png)
+![esEx](/readmesrc/exEn.jpg)
+![enEx](/readmesrc/exEs.jpg)
 
